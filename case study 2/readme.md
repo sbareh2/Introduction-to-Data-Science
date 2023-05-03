@@ -49,3 +49,19 @@ Columns to Drop:
 
 *    Change the "Sales Area" column label in the 2008 dataset to "Cert Region" for consistency.
 *    Rename all column labels to replace spaces with underscores and convert everything to lowercase. (Underscores can be much easier to work with in Python than spaces. For example, having spaces wouldn't allow you to use df.column_name instead of df['column_name'] to select columns or use query(). Being consistent with lowercase and underscores also helps make column names easy to remember.)
+
+
+
+# 4. Filter, Drop Nulls, Dedupe
+## 1. Filter
+
+For consistency, only compare cars certified by California standards. Filter both datasets using query to select only rows where cert_region is CA. Then, drop the cert_region columns, since it will no longer provide any useful information (we'll know every value is 'CA').
+
+## 2. Drop Nulls
+Drop any rows in both datasets that contain missing values.
+
+## 3. Dedupe
+Drop any duplicate rows in both datasets. 
+
+
+
