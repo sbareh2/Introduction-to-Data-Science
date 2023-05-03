@@ -64,4 +64,47 @@ Drop any rows in both datasets that contain missing values.
 Drop any duplicate rows in both datasets. 
 
 
+# 5. Fixing Data Types 
+## Fixing Data Types Pt 1
 
+In the next three sections, you'll make the following changes to make the datatypes consistent and practical to work with.
+### Fix cyl datatype
+*    2008: extract int from string.
+*    2018: convert float to int.
+
+### Fix air_pollution_score datatype
+*    2008: convert string to float.
+*    2018: convert int to float.
+
+### Fix city_mpg, hwy_mpg, cmb_mpg datatypes
+*    2008 and 2018: convert string to float.
+
+### Fix greenhouse_gas_score datatype
+*    2008: convert from float to int.
+
+## Fixing Data Types Pt 2
+Next, you're going to fix the air pollution data type. This one involves a tricky step, and hints are provided along the way.
+
+
+## Fixing Data Types Part 3
+
+In this last section, you'll fix datatypes of columns for mpg and greenhouse gas score.
+
+After you complete these final fixes, check the datatypes of all features in both datasets to confirm success for all the changes we specified earlier. Here they are again for your reference:
+### Fix cyl datatype
+
+*    2008: extract int from string.
+*    2018: convert float to int.
+
+### Fix air_pollution_score datatype
+
+*    2008: convert string to float.
+*    2018: convert int to float.
+
+### Fix city_mpg, hwy_mpg, cmb_mpg datatypes
+
+*    2008 and 2018: convert string to float.
+
+### Fix greenhouse_gas_score datatype
+
+*    2008: convert from float to int.
