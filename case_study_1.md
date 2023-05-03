@@ -8,6 +8,7 @@ df_red = pd.read_csv('winequality-red.csv', sep=';')
 df_white = pd.read_csv('winequality-white.csv', sep=';')
 
 #How many samples of red wine are there?#
+
 #How many samples of white wine are there?#
 #How many columns are in each dataset?#
 #Which features have missing values?#
