@@ -34,3 +34,18 @@ The files all_alpha_08.csv and all_alpha_18.csv discussed in the previous pages 
 *    features with missing values
 *    number of non-null unique values for features in each dataset
 *    what those unique values are and counts for each
+
+
+# 3. Cleaning Column Labels
+## 1. Drop extraneous columns
+
+Drop features that aren't consistent (not present in both datasets) or aren't relevant to our questions. Use pandas' drop function.
+Columns to Drop:
+
+*    From 2008 dataset: 'Stnd', 'Underhood ID', 'FE Calc Appr', 'Unadj Cmb MPG'
+*    From 2018 dataset: 'Stnd', 'Stnd Description', 'Underhood ID', 'Comb CO2'
+
+## 2. Rename Columns
+
+*    Change the "Sales Area" column label in the 2008 dataset to "Cert Region" for consistency.
+*    Rename all column labels to replace spaces with underscores and convert everything to lowercase. (Underscores can be much easier to work with in Python than spaces. For example, having spaces wouldn't allow you to use df.column_name instead of df['column_name'] to select columns or use query(). Being consistent with lowercase and underscores also helps make column names easy to remember.)
