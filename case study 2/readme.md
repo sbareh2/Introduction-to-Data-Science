@@ -108,3 +108,13 @@ After you complete these final fixes, check the datatypes of all features in bot
 ### Fix greenhouse_gas_score datatype
 
 *    2008: convert from float to int.
+
+# 6. Conclusions & Visuals
+
+Draw conclusions and create visuals to communicate results in the Jupyter notebook below! Make sure to address the following questions.
+
+* Q1: Are more unique models using alternative fuels in 2018 compared to 2008? By how much?
+* Q2:  How much have vehicle classes improved in fuel economy (increased in mpg)?
+* Q3: What are the characteristics of SmartWay vehicles? Have they changed over time? (mpg, greenhouse gas)
+* Q4: What features are associated with better fuel economy (mpg)?
+
